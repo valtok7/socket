@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Code/socket_server/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\SocketServer.dir\\src\\SocketServer.cpp.obj -c D:\\Code\\socket_server\\src\\SocketServer.cpp",
+  "file": "D:/Code/socket_server/src/SocketServer.cpp"
+}
+]
