@@ -13,6 +13,9 @@ add_executable(SocketServer ${SOURCES})
 if (WIN32)
     # Windows用のライブラリリンク
     target_link_libraries(SocketServer wsock32 ws2_32)
+
+    # Windows用のコンパイルオプション
+    add_compile_options(-D _NOSOCKLEN)
 else()
     # Linux用のライブラリリンク
     target_link_libraries(SocketServer pthread)

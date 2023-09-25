@@ -12,9 +12,9 @@
 #include <unistd.h>
 #endif
 
-#define _NOSOCKLEN
-using SOCKLEN = int;
+//#define _NOSOCKLEN  CMakeLists.txtで設定する
 #ifdef _NOSOCKLEN
+using SOCKLEN = int;
 #else
 using SOCKLEN = socklen_t;
 #endif
