@@ -8,14 +8,14 @@
             "name": "(gdb) 起動",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/SocketServer.exe",
+            "program": "${workspaceFolder}/build/SocketServer",
             "args": ["12345"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:/mingw64/bin/gdb.exe", // <- フルパス
+            "miDebuggerPath": "gdb",
             "setupCommands": [
                 {
                     "description": "gdb の再フォーマットを有効にする",
